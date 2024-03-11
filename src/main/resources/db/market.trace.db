@@ -1,0 +1,126 @@
+2024-03-11 13:27:03.082019+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "sale_date" not found [42122-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:514)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.jdbc.JdbcResultSet.getColumnIndex(JdbcResultSet.java:3518)
+	at org.h2.jdbc.JdbcResultSet.getDate(JdbcResultSet.java:478)
+	at persistence.repositories.SaleRepository.save(SaleRepository.java:45)
+	at businesslogic.services.SaleService.createSale(SaleService.java:25)
+	at app.Main.main(Main.java:20)
+2024-03-11 13:29:11.469632+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "sale_date" not found [42122-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:514)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.jdbc.JdbcResultSet.getColumnIndex(JdbcResultSet.java:3518)
+	at org.h2.jdbc.JdbcResultSet.getDate(JdbcResultSet.java:478)
+	at persistence.repositories.SaleRepository.save(SaleRepository.java:45)
+	at businesslogic.services.SaleService.createSale(SaleService.java:25)
+	at app.Main.main(Main.java:20)
+2024-03-11 13:33:33.696841+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "sale_date" not found [42122-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:514)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.jdbc.JdbcResultSet.getColumnIndex(JdbcResultSet.java:3518)
+	at org.h2.jdbc.JdbcResultSet.getDate(JdbcResultSet.java:478)
+	at persistence.repositories.SaleRepository.save(SaleRepository.java:45)
+	at businesslogic.services.SaleService.createSale(SaleService.java:25)
+	at app.Main.main(Main.java:20)
+2024-03-11 13:48:47.608979+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "sale_date" not found [42122-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:514)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.jdbc.JdbcResultSet.getColumnIndex(JdbcResultSet.java:3518)
+	at org.h2.jdbc.JdbcResultSet.getDate(JdbcResultSet.java:478)
+	at persistence.repositories.SaleRepository.save(SaleRepository.java:45)
+	at businesslogic.services.SaleService.createSale(SaleService.java:25)
+	at app.Main.main(Main.java:20)
+2024-03-11 13:52:56.130366+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "sale_date" not found [42122-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:514)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.jdbc.JdbcResultSet.getColumnIndex(JdbcResultSet.java:3518)
+	at org.h2.jdbc.JdbcResultSet.getDate(JdbcResultSet.java:478)
+	at persistence.repositories.SaleRepository.save(SaleRepository.java:45)
+	at businesslogic.services.SaleService.createSale(SaleService.java:25)
+	at app.Main.main(Main.java:20)
+2024-03-11 13:57:43.756381+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "SALE_DATE" not found [42122-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:514)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.jdbc.JdbcResultSet.getColumnIndex(JdbcResultSet.java:3518)
+	at org.h2.jdbc.JdbcResultSet.getDate(JdbcResultSet.java:478)
+	at persistence.repositories.SaleRepository.save(SaleRepository.java:45)
+	at businesslogic.services.SaleService.createSale(SaleService.java:25)
+	at app.Main.main(Main.java:25)
+2024-03-11 13:58:54.884502+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "sale_date" not found [42122-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:514)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.jdbc.JdbcResultSet.getColumnIndex(JdbcResultSet.java:3518)
+	at org.h2.jdbc.JdbcResultSet.getDate(JdbcResultSet.java:478)
+	at persistence.repositories.SaleRepository.save(SaleRepository.java:45)
+	at businesslogic.services.SaleService.createSale(SaleService.java:25)
+	at app.Main.main(Main.java:25)
+2024-03-11 14:00:02.418773+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "INSERT INTO sales(product_id,client_id,quantity,[*]'sale_date')\000aVALUES (?,?,?,?);\000a"; expected "identifier"; SQL statement:
+INSERT INTO sales(product_id,client_id,quantity,'sale_date')
+VALUES (?,?,?,?);
+ [42001-224]
+2024-03-11 14:01:40.944827+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "sale_date" not found [42122-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:514)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.jdbc.JdbcResultSet.getColumnIndex(JdbcResultSet.java:3518)
+	at org.h2.jdbc.JdbcResultSet.getDate(JdbcResultSet.java:478)
+	at persistence.repositories.SaleRepository.save(SaleRepository.java:45)
+	at businesslogic.services.SaleService.createSale(SaleService.java:25)
+	at app.Main.main(Main.java:25)
+2024-03-11 14:02:17.702345+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Invalid value "5" for parameter "columnIndex" [90008-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:658)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:298)
+	at org.h2.jdbc.JdbcResultSet.checkColumnIndex(JdbcResultSet.java:3524)
+	at org.h2.jdbc.JdbcResultSet.getDate(JdbcResultSet.java:391)
+	at persistence.repositories.SaleRepository.save(SaleRepository.java:45)
+	at businesslogic.services.SaleService.createSale(SaleService.java:25)
+	at app.Main.main(Main.java:25)
+2024-03-11 14:02:44.189163+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Invalid value "4" for parameter "columnIndex" [90008-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:658)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:298)
+	at org.h2.jdbc.JdbcResultSet.checkColumnIndex(JdbcResultSet.java:3524)
+	at org.h2.jdbc.JdbcResultSet.getDate(JdbcResultSet.java:391)
+	at persistence.repositories.SaleRepository.save(SaleRepository.java:45)
+	at businesslogic.services.SaleService.createSale(SaleService.java:25)
+	at app.Main.main(Main.java:25)
+2024-03-11 14:03:53.788668+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Invalid value "5" for parameter "columnIndex" [90008-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:658)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:298)
+	at org.h2.jdbc.JdbcResultSet.checkColumnIndex(JdbcResultSet.java:3524)
+	at org.h2.jdbc.JdbcResultSet.getDate(JdbcResultSet.java:391)
+	at persistence.repositories.SaleRepository.save(SaleRepository.java:45)
+	at businesslogic.services.SaleService.createSale(SaleService.java:25)
+	at app.Main.main(Main.java:25)
