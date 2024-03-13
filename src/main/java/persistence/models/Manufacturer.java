@@ -1,4 +1,7 @@
 package persistence.models;
+
+import businesslogic.validation.proxies.ManufacturerProxy;
+
 public class Manufacturer extends Model {
     private String name;
     private String country;
@@ -24,6 +27,10 @@ public class Manufacturer extends Model {
 
         public ManufacturerBuilder() {}
 
+        public ManufacturerBuilder(ManufacturerProxy manufacturerProxy){
+            this.name = manufacturerProxy.getName();
+            this.country = manufacturerProxy.getCountry();
+        }
         public ManufacturerBuilder id(int id) {
             this.id = id;
             return this;

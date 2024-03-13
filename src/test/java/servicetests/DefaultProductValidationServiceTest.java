@@ -19,6 +19,8 @@ import persistence.repositories.ManufacturerRepository;
 import persistence.repositories.ProductRepository;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.when;
 
@@ -51,7 +53,7 @@ class DefaultProductValidationServiceTest {
 
         ValidationResult result = productValidationService.validate(productProxy);
 
-        assertEquals(true, result.isValid());
+        assertTrue(result.isValid());
     }
 
     @Test
@@ -64,7 +66,7 @@ class DefaultProductValidationServiceTest {
 
         ValidationResult result = productValidationService.validate(productProxy);
 
-        assertEquals(false, result.isValid());
+        assertFalse(result.isValid());
         assertEquals("Product name [Duplicate Product] is already taken", result.getErrorMsg());
     }
 

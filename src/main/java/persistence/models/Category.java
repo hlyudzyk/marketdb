@@ -1,5 +1,7 @@
 package persistence.models;
 
+import businesslogic.validation.proxies.CategoryProxy;
+
 public class Category extends Model {
     private String name;
 
@@ -17,6 +19,9 @@ public class Category extends Model {
         private String name;
 
         public CategoryBuilder() {}
+        public CategoryBuilder(CategoryProxy categoryProxy){
+            this.name = categoryProxy.getName();
+        }
 
         public CategoryBuilder id(int id) {
             this.id = id;
